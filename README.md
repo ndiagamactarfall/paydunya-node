@@ -37,7 +37,7 @@ var store = new paydunya.Store({
   tagline: "L'élégance n'a pas de prix",
   phoneNumber: '336530583',
   postalAddress: 'Dakar Plateau - Etablissement kheweul',
-  logoURL: 'http://www.chez-sandra.sn/logo.png'
+  logoURL: 'http://www.chez-sandra.sn/logo.png' //Logo
 });
 ```
 
@@ -63,7 +63,7 @@ invoice.description = 'Lenovo Product'
 ## Setting Total Amount Chargeable
 
 ```javascript
-invoice.totalAmount = 400000;
+invoice.totalAmount = 400000; // 400 000
 ```
 
 ## Redirecting to paydunya Checkout
